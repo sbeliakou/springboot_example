@@ -1,8 +1,13 @@
 ## Spring Boot Sample Application
 
-### Buld Application
+### Buld and Package Application
 ```
 docker build -t myspringbootapp .
+```
+
+### Just Build Application JAR
+```
+docker build -t myapp --target builder .
 ```
 
 ### Run Application
